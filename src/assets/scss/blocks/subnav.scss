@@ -1,0 +1,23 @@
+.subnav {
+    display: none;
+    width: 16.5rem;
+    padding: .5rem 0;
+    background-color: $blue;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 6px 8px rgba($black, .2);
+    transition: background-color .2s ease-in-out;
+}
+
+.subnav__link {
+    display: block;
+    padding: .45rem 1.2rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: $white;
+    &:hover {
+        background-color: darken($blue, 5%);
+    }
+}
